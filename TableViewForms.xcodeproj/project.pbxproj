@@ -15,6 +15,8 @@
 		CA6FB489246A7B970085EF0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6FB487246A7B970085EF0F /* LaunchScreen.storyboard */; };
 		CA6FB494246A7B970085EF0F /* TableViewFormsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6FB493246A7B970085EF0F /* TableViewFormsTests.swift */; };
 		CA6FB49F246A7B970085EF0F /* TableViewFormsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6FB49E246A7B970085EF0F /* TableViewFormsUITests.swift */; };
+		CA6FB4AD246A7E350085EF0F /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = CA6FB4AC246A7E350085EF0F /* image1.png */; };
+		CA6FB4AF246AA0140085EF0F /* FormTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6FB4AE246AA0140085EF0F /* FormTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		CA6FB49A246A7B970085EF0F /* TableViewFormsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewFormsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA6FB49E246A7B970085EF0F /* TableViewFormsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewFormsUITests.swift; sourceTree = "<group>"; };
 		CA6FB4A0246A7B970085EF0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA6FB4AC246A7E350085EF0F /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		CA6FB4AE246AA0140085EF0F /* FormTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +103,11 @@
 		CA6FB47B246A7B970085EF0F /* TableViewForms */ = {
 			isa = PBXGroup;
 			children = (
+				CA6FB4AC246A7E350085EF0F /* image1.png */,
 				CA6FB47C246A7B970085EF0F /* AppDelegate.swift */,
 				CA6FB47E246A7B970085EF0F /* SceneDelegate.swift */,
 				CA6FB480246A7B970085EF0F /* ViewController.swift */,
+				CA6FB4AE246AA0140085EF0F /* FormTableViewController.swift */,
 				CA6FB482246A7B970085EF0F /* Main.storyboard */,
 				CA6FB485246A7B970085EF0F /* Assets.xcassets */,
 				CA6FB487246A7B970085EF0F /* LaunchScreen.storyboard */,
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA6FB489246A7B970085EF0F /* LaunchScreen.storyboard in Resources */,
+				CA6FB4AD246A7E350085EF0F /* image1.png in Resources */,
 				CA6FB486246A7B970085EF0F /* Assets.xcassets in Resources */,
 				CA6FB484246A7B970085EF0F /* Main.storyboard in Resources */,
 			);
@@ -262,6 +269,7 @@
 				CA6FB481246A7B970085EF0F /* ViewController.swift in Sources */,
 				CA6FB47D246A7B970085EF0F /* AppDelegate.swift in Sources */,
 				CA6FB47F246A7B970085EF0F /* SceneDelegate.swift in Sources */,
+				CA6FB4AF246AA0140085EF0F /* FormTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
